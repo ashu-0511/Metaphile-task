@@ -32,28 +32,34 @@ function StudentForm(props) {
                             <p className="flex items-start py-1"> Verify OTP</p>
                             <div className="flex gap-2">
                                 <input
-                                    type="text"
+                                    type="password"
                                     className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    maxLength="1"
                                 />
                                 <input
-                                    type="text"
+                                    type="password"
                                     className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    maxLength="1"
                                 />
                                 <input
-                                    type="text"
+                                    type="password"
                                     className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    maxLength="1"
                                 />
                                 <input
-                                    type="text"
+                                    type="password"
                                     className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    maxLength="1"
                                 />
                                 <input
-                                    type="text"
+                                    type="password"
                                     className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    maxLength="1"
                                 />
                                 <input
-                                    type="text"
+                                    type="password"
                                     className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    maxLength="1"
                                 />
                             </div>
                         </div>
