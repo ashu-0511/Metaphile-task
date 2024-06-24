@@ -5,12 +5,12 @@ function StudentForm(props) {
         <div className="flex flex-col md:flex-row gap-7">
             <div className="flex-1 flex flex-col items-center justify-center">
                 <div className="data">
-                    <h1 className="text-2xl font-semibold p-5 pl-0">Powering student-centric education in school</h1>
-                    <p>We help Schools of all Classes and Streams operate better - from admission to academics, back office to accrediations, desktops to mobiles - We empower students, faculty and management to collborate effecienty and use insights effectively, bench marking quality education while creating personalized learning experience.</p>
+                    <h1 className="text-2xl font-semibold p-5 pl-0">Streaming Teaching Excellence</h1>
+                    <p>Empowering Teacher for Academic Excellence: From Class Management to Insights, Our Teacher ERP Streamlines Operations Across Desktop and Mobile Platforms. Collaborate Efficiently, Utilize Insights Effectively, and Benchmark Quality Education for Personalized Teaching Experiences.</p>
                 </div>
             </div>
             <div className="flex-1 mt-7 md:mt-0">
-                <form className="p-12 bg-form text-center rounded-xl h-full border-2 border-slate-300">
+                <form className="px-4 py-10 bg-form text-center rounded-xl h-full border-2 border-slate-300">
                     <h1 className="font-bold text-2xl p-0.5">Forgot Password</h1>
                     <div className="image">
                         <img src={props.logo} alt="school-logo" className="h-36 w-36 m-auto" />

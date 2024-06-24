@@ -10,14 +10,14 @@ function StudentForm(props) {
                 </div>
             </div>
             <div className="flex-1 mt-7 md:mt-0">
-                <form className="p-12 bg-form text-center rounded-xl h-full border-2 border-slate-300">
+                <form className="px-4 py-10 bg-form text-center rounded-xl h-full border-2 border-slate-300">
                     <h1 className="font-bold text-2xl p-0.5">Welcome Back</h1>
                     <p className="p-2">Please Enter Your ID & Password</p>
                     <div className="btn flex gap-2 justify-center">
                         <Link to='/'>
-                            <button className="border-2 py-1 px-2 rounded-xl">Student</button>
+                            <button className="border-2 py-1.5 px-2 rounded-xl">Student</button>
                         </Link>
-                        <button className="border-2 bg-btn py-1 px-2 rounded-xl text-btn">Teacher</button>
+                        <button className="border-2 bg-btn py-1.5 px-2 rounded-xl text-btn">Teacher</button>
                     </div>
                     <div className="form flex flex-col justify-center items-start p-10 gap-4">
                         <label htmlFor="" className="font-medium">Login ID</label>

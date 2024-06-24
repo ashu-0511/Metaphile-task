@@ -10,7 +10,7 @@ function StudentForm(props) {
                 </div>
             </div>
             <div className="flex-1 mt-7 md:mt-0">
-                <form className="p-8 bg-form text-center rounded-xl h-full border-2 border-slate-300">
+                <form className="px-4 py-8 bg-form text-center rounded-xl h-full border-2 border-slate-300">
                     <h1 className="font-bold text-2xl p-0.5">Forgot Password</h1>
                     <p className="p-1">Please Enter Your ID & Password</p>
                     <div className="image">
@@ -18,11 +18,11 @@ function StudentForm(props) {
                     </div>
                     <div className="form flex flex-col justify-center items-start p-8 gap-1">
                         <label htmlFor="" className="font-medium">Login ID</label>
-                        <input type="text" name="login" placeholder="EX:1234" className="border-2 w-full rounded-md p-1 border-slate-500" />
+                        <input type="text" name="login" placeholder="EX:1234" className="border-2 w-3/4 rounded-md p-1 border-slate-500" />
                         <label htmlFor="" className="font-medium">Enter Email or Phone no.</label>
-                        <div className="w-full flex gap-3">
+                        <div className="w-full flex">
                             <input type="text" name="login" className="border-2 w-3/4 h-fit rounded-md p-1 border-slate-500" />
-                            <button className="border-2 bg-btn px-2 rounded-xl text-white sm:h-2 text-xs md:h-auto text-btn hover:text-hover hover:bg-form"
+                            <button className="border-2 bg-btn px-2 py-0.5 rounded-xl text-white sm:h-2 text-xs md:h-auto text-btn hover:text-hover hover:bg-form"
                                 onClick={() => {
                                     alert('OTP Sent!');
                                 }}
@@ -30,35 +30,35 @@ function StudentForm(props) {
                         </div>
                         <div>
                             <p className="flex items-start py-1"> Verify OTP</p>
-                            <div className="flex gap-2">
+                            <div className="flex gap-2 w-3/4 ">
                                 <input
                                     type="password"
-                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-3/4 "
                                     maxLength="1"
                                 />
                                 <input
                                     type="password"
-                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-3/4 "
                                     maxLength="1"
                                 />
                                 <input
                                     type="password"
-                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-3/4 "
                                     maxLength="1"
                                 />
                                 <input
                                     type="password"
-                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-3/4 "
                                     maxLength="1"
                                 />
                                 <input
                                     type="password"
-                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-3/4 "
                                     maxLength="1"
                                 />
                                 <input
                                     type="password"
-                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-7"
+                                    className="border-gray-500 border-2 rounded-lg py-1 px-2 w-3/4 "
                                     maxLength="1"
                                 />
                             </div>
