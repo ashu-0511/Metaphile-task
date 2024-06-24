@@ -27,7 +27,11 @@ function StudentForm(props) {
                         <Link to="/teacher-forget" className="text-link">Forget Password ?</Link>
                     </div>
                     <div className="login">
-                        <button className="login border-2 bg-btn px-10 py-2 rounded-xl text-btn hover:text-hover hover:bg-form">Login</button>
+                        <button className="login border-2 bg-btn px-10 py-2 rounded-xl text-btn hover:text-hover hover:bg-form"
+                            onClick={() => {
+                                alert('login successfully');
+                            }}
+                        >Login</button>
                     </div>
                 </form>
             </div>

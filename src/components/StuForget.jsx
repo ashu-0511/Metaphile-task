@@ -68,7 +68,11 @@ function StudentForm(props) {
                         </Link>
                     </div>
                     <div className="btn flex justify-center">
-                        <button className="border-2 bg-btn py-2 px-10 rounded-xl text-btn hover:text-hover hover:bg-form">Submit</button>
+                        <button className="border-2 bg-btn py-2 px-10 rounded-xl text-btn hover:text-hover hover:bg-form"
+                            onClick={() => {
+                                alert('login successfully');
+                            }}
+                        >Submit</button>
                     </div>
                 </form>
             </div>

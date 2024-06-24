@@ -23,7 +23,11 @@ function StudentForm(props) {
                         <Link to="/teacher-Form" className="text-link">Back to Login</Link>
                     </div>
                     <div className="login">
-                        <button className="login border-2 bg-btn px-10 py-2 rounded-xl text-btn hover:text-hover hover:bg-form">Save</button>
+                        <button className="login border-2 bg-btn px-10 py-2 rounded-xl text-btn hover:text-hover hover:bg-form"
+                            onClick={() => {
+                                alert('Password changed successfully');
+                            }}
+                        >Save</button>
                     </div>
                 </form>
             </div>
